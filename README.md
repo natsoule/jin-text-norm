@@ -25,6 +25,16 @@ Install sklearn
 
 * pip install sklearn
 
+To get the lexnorm data:
+
+* wget http://noisy-text.github.io/2015/files/lexnorm2015.tgz<br/>
+* tar xvzf lexnorm2015.tgz
+
+To download the tweet tagger from source (not required, included in this repository):
+
+* https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ark-tweet-nlp/ark-tweet-nlp-0.3.2.tgz
+* tar xvzf ark-tweet-nlp-0.3.2.tgz
+
 ### POS Tagger
 
 The compiled CMU pos tagger, ark-tweet-nlp-0.3.2.jar, is included for convenience but you can also compile from source from this repository to get the latest version: https://github.com/brendano/ark-tweet-nlp. 
